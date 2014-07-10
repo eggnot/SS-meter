@@ -4,6 +4,6 @@ Sound-meter
 
 Demonstration: http://www.youtube.com/watch?v=fryWdb5w5GM
 
-[Arduino sketch](../blob/master/Arduino)
+[Arduino sketch](../master/Arduino)
 
-Computer (Processing) sketch: /Processing
+[Processing sketch](../master/Processing)
