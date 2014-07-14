@@ -1,3 +1,18 @@
+/*--------------------------------------------------------------------
+  SS-meter, processing 1.51 sketch
+
+  averages the volume from a microphone
+  [using FFT to get more value for wide-spectrum sound (noise, claps)]
+  sends GRB data to serial.
+  
+  arrow keys to ajust factors of sensivity & decline
+  
+  scetch was a purpose to just get thing working, dull & dirty,
+  based on standart Minin example "Forward FFT" by Damien Di Fede.
+
+  aleksey.grishchenko@gmail.com
+  --------------------------------------------------------------------*/
+
 import processing.serial.*;
 import ddf.minim.analysis.*;
 import ddf.minim.*;
@@ -26,8 +41,6 @@ void setup() {
   minim = new Minim(this);
   in = minim.getLineIn(Minim.MONO, 1024, 11025, 16);
   fft = new FFT( in.bufferSize(), in.sampleRate() );
-  
-  //frameRate(5);
   
 }
 

@@ -1,9 +1,19 @@
-SS-meter / Science Slam sound-meter
+## SS-meter
 
-Sound-meter
+** meter for mearuse 'Science Slam'ity
 
-Demonstration: http://www.youtube.com/watch?v=fryWdb5w5GM
+"Science Slam" is the local event, presenting scientific research to broad public: http://vk.com/scienceslamnsk
 
-[Arduino sketch](../master/Arduino/serialSSmeter)
+![making](images/making.jpg)
+![programming](images/programming.jpg)
+![on_scene](images/on_scene.jpg)
 
-[Processing sketch](../master/Processing/volume2arduino)
+VIDEO http://www.youtube.com/watch?v=fryWdb5w5GM
+
+[Arduino sketch](Arduino/serialSSmeter)
+_Note: this scketch is usinig modified version of "Adafruit NeoPixel library", for more info see code
+  
+[Processing sketch](Processing/volume2arduino)
+_Note: basic volume metering using Minim library
+
+done by me, [*Mehanik*](https://github.com/Mehanik), [*PeterBeklemishev*](https://github.com/PeterBeklemishev)
